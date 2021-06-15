@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&family=Viaoda+Libre&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="style.css">
+    <title>University Webiste Design</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" ><img src="./image/logo_sincai.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        </nav>
+        <div class="text-box">
+            <h1>Gheorghe Sincai High School</h1>
+            <p>Welcome to the page of Gheorghe Sincai High School</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, ipsum!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reprehenderit cupiditate, quibusdam voluptatem doloribus consequatur architecto nostrum ea totam fugiat natus, optio error alias asperiores?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reprehenderit cupiditate, quibusdam voluptatem doloribus consequatur architecto nostrum ea totam fugiat natus, optio error alias asperiores?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reprehenderit cupiditate, quibusdam voluptatem doloribus consequatur architecto nostrum ea totam fugiat natus, optio error alias asperiores?</p>
+            </div>
+</div>
+    </section>
+
+<!-- campus -->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, illum.</p>
+        <!-- <h2>Targu Mures</h2> -->
+        <div class="row">
+            <div class="campus-col">
+                <img src="./image/gheorghe.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Targu Mures
+                    </h3>
+                </div>
+            </div>
+            <!-- <h2>Activites</h2> -->
+            <div class="campus-col">
+                <img src="./image/tautan.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Activites
+                    </h3>
+                </div>
+            </div>
+            <!-- <h2>Nice Community</h2> -->
+            <div class="campus-col">
+                <img src="./image/fete.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Nice Community
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 
+        facilites
+     -->
+
+     <section class="facilities">
+         <h1>Our Facilities</h1>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, aspernatur.</p>
+
+
+         <div class="row">
+             <div class="facilities-col">
+                 <img src="./image/library.png" alt="">
+                 <h3>World class library</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem qui excepturi, sapiente adipisci fuga!</p>
+             </div>
+             <div class="facilities-col">
+                <img src="./image/basketball.png" alt="">
+                <h3>largest play ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem qui excepturi, sapiente adipisci fuga!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./image/cafeteria.png" alt="">
+                <h3>Tasty and healty food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem qui excepturi, sapiente adipisci fuga!</p>
+            </div>
+         </div>
+     </section>
+
+
+     <!-- testimonials -->
+     <section class="testimonials">
+        <h3>Our best teacher</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem qui excepturi, sapiente adipisci fuga!</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="/image/dirifu.jfif" alt="">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolores incidunt temporibus. Ab eius repudiandae laboriosam quae nemo? Et, ullam.</p>
+                    <h3>Veres Marius</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="/image/me1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolores incidunt temporibus. Ab eius repudiandae laboriosam quae nemo? Et, ullam.</p>
+                    <h3>Trif Sergiu</h3>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- call to action -->
+
+     <!-- <section class="cta">
+         <h1>Send me a mail</h1>
+         <a href="CONTACT ME"></a>
+     </section> -->
+
+<!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
